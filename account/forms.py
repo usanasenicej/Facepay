@@ -9,6 +9,6 @@ class DepositForm(forms.Form):
     ))
     amount = forms.DecimalField(widget= forms.NumberInput(
         attrs={
-            "class":"col-md-4 form-control"
+            "class":"col-md-4 "
         }
     ))
